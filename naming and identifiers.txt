@@ -1,0 +1,44 @@
+//page 2
+// number of dogs
+6
+//Number of cats
+5
+//number of turtles
+2
+//number of hamsters
+1
+//total number of animals
+6+5+2+1
+//total number of mammals
+6+5+1
+
+//page 4
+let numberOfDogs = 6+2 //=8
+
+let numberOfCats = 5-1 //=4
+
+let numberOfTurtles = 2+1 //=3
+
+let numberOfHamsters = 1+1 //=2
+let totalNumberOfAnimals = numberOfDogs + numberOfCats + numberOfTurtles + numberOfHamsters //+15
+
+let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters //=13
+
+//page 6
+let numberOfDogs = 6 + 2 //=8
+
+let numberOfCats = 5 - 1 //=4
+
+let numberOfTurtles = 2 + 1// 3
+
+let numberOfHamsters = 1 + 1//2
+let numberOfpigs = 1
+let numberOffish = 1
+let numberOfsnakes = 1
+
+let totalNumberOfAnimals = numberOfDogs + numberOfCats + numberOfTurtles + numberOfHamsters + numberOfpigs + numberOffish + numberOfsnakes
+
+
+let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters + numberOfpigs
+
+//page
