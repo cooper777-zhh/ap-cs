@@ -50,4 +50,70 @@ let totalticketvalue =  Number Of Tickets*Ticket Price
 let totalexpenses = Room Rental Fee + Poster Cost
 let totalincome = totalticketvalue - totalexpenses
 
-//page
+//page 11
+let ticketsSold = 1000
+let ticketPrice = 2
+let printingCosts = 20
+let advertising = 50
+
+let totalTakings = ticketPrice * ticketsSold
+let jackpot = totalTakings / 2
+let totalExpenses = printingCosts + advertising
+let profit = totalTakings - jackpot - totalExpenses
+
+let programmersCut = profit / 10   //  my 1/10
+let friendsCut = profit - programmersCut
+
+//page 12
+// iPhone storage (MB)
+let totalStorage = 8000   // 8GB = 8000MB
+let usedStorage = 3000    // already used
+let videoPerMinute = 150  // MB per minute
+
+// remaining storage
+let freeStorage = totalStorage - usedStorage
+
+// how many minutes of video can fit
+let minutesOfVideo = freeStorage / videoPerMinute
+
+print("You can fit \(minutesOfVideo) full minutes of video.")
+
+//page13
+let brushTeeth = 3
+let shower = 10
+let chooseClothes = 5
+let eatBreakfast = 15
+let checkPhone = 8
+let doHomework = 20
+
+let totalTime = brushTeeth + shower + chooseClothes + eatBreakfast + checkPhone + doHomework
+print("Total morning time: \(totalTime) minutes")
+
+let mustDo = brushTeeth + shower + chooseClothes
+let likeToDo = eatBreakfast + checkPhone
+let optional = doHomework
+
+print("Must do: \(mustDo) minutes")
+print("Like to do: \(likeToDo) minutes")
+print("Optional: \(optional) minutes")
+
+//page14
+// Prices
+let orangeCost = 14        // cost of one orange
+let watermelonCost = 3     // cost of one watermelon
+let orangeWeight = 100     // weight of an orange in grams
+let watermelonWeight = 200 // weight of a watermelon in grams
+
+// Total weight
+let totalOrangeWeight = orangeCost * orangeWeight
+let totalWatermelonWeight = watermelonCost * watermelonWeight
+let totalWeight = totalOrangeWeight + totalWatermelonWeight
+
+// Average weight
+let averageWeight = totalWeight / 2
+
+// Left-hand side calculation
+let leftSide = averageWeight / orangeWeight
+
+// Right-hand side calculation
+let rightSide = orangeCost - leftSide
