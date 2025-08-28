@@ -41,4 +41,13 @@ let totalNumberOfAnimals = numberOfDogs + numberOfCats + numberOfTurtles + numbe
 
 let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters + numberOfpigs
 
+//page 10
+let Number Of Tickets=150
+let Ticket Price=10
+let Poster Cost 40
+let Room Rental Fee=1000
+let totalticketvalue =  Number Of Tickets*Ticket Price
+let totalexpenses = Room Rental Fee + Poster Cost
+let totalincome = totalticketvalue - totalexpenses
+
 //page
